@@ -78,7 +78,7 @@ This project demonstrates multiprocessing in C++ using `fork()` to fully utilize
 Compile the source code with:
 
 ```bash
-g++ -o prime_parallel prime_parallel.cpp -pthread
+g++ -o multiprocessing multiprocessing.cpp -pthread
 ```
 
 ## Execution
@@ -86,7 +86,7 @@ g++ -o prime_parallel prime_parallel.cpp -pthread
 Run the compiled executable:
 
 ```bash
-./prime_parallel
+./multiprocessing
 ```
 
 ## Code Explanation
